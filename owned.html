@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Owned By CipherShadow08</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+            color: greenyellow;
+            font-family: 'Anonymous Pro', monospace;
+        }
+        
+        #video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.4;
+            z-index: -1;
+        }
+        
+        .content {
+            max-width: 800px;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 10px;
+            box-shadow: 0 0 15px greenyellow;
+        }
+        
+        h2 {
+            font-size: 2.5em;
+            letter-spacing: 3px;
+            animation: glitch 1s infinite;
+        }
+        
+        h3 {
+            font-size: 1.8em;
+            margin-top: 20px;
+        }
+        
+        p {
+            font-size: 1.2em;
+            line-height: 1.5;
+            margin-top: 15px;
+        }
+        
+        @keyframes glitch {
+            0% { text-shadow: 0 0 10px #0f0; }
+            25% { text-shadow: -3px 3px 10px #f00; }
+            50% { text-shadow: 3px -3px 10px #00f; }
+            100% { text-shadow: 0 0 10px #0f0; }
+        }
+    </style>
+</head>
+<body>
+    <video autoplay loop muted id="video-background">
+        <source src="https://cdn.pixabay.com/video/2020/04/21/36784-412873690_large.mp4" type="video/mp4">
+    </video>
+    
+    <div class="content">
+        <h2>Owned By CipherShadow08</h2>
+        <p>"QUER ACABAR COM O CRIME? ENTÃO INVESTE NA ESCOLA<br>
+            DIGNIDADE E INFRAESTRUTURA PRA QUEBRADA<br>
+            MENOR PRECISA DE PERSPECTIVA E ESPERANÇA<br>
+            QUANDO O ESTADO NÃO DÁ ISSO, O CRIME VAI E ABRAÇA"</p>
+    </div>
+</body>
+</html>
